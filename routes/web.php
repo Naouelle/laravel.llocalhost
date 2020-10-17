@@ -37,7 +37,7 @@ Route::any('/with/many/parameters', function () {
 
 Route::get('article/{id}', function ($id) {
     return 'Article '.$id;
-})->where('id', '[0-9]+');
+})->where('id', '[0-9]+')->name('article');
 
 Route::get('article/{article}/user/{user}', function ($articleId, $userId) {
     return 'Article : ' . $articleId . ' User : ' . $userId;

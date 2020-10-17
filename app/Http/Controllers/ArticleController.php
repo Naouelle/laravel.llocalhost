@@ -11,6 +11,10 @@ class ArticleController extends Controller
      */
     public function index()
     {
+        $url = route('article', ['id' => 15]);
+        //dd($url);
+        return redirect()->route('article', ['id' => 16]);
+
         $data = ['a', 'b'];
 
         // dd($data);
