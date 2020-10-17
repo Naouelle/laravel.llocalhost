@@ -50,3 +50,7 @@ Route::get('option/{param?}', function ($param = null) {
 // ->where('param', '[A-Za-z]+');
 // ->where('id', '[0-9]+');
 // ->where(['article' => '[A-Za-z]+', 'user' => '[0-9]+']);
+
+//Route::redirect('/redirect', 'all');
+//Route::redirect('/test', 'all', 301);
+Route::permanentRedirect('/test', 'all');
