@@ -14,6 +14,11 @@
 
 </head>
 <body>
+    @component('layouts.components.navbar')
+        @slot('name')
+            Laravel 2
+        @endslot
+    @endcomponent
     <div class="container">
         <div class="row">
             <div class="col-sm">
