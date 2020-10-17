@@ -1,15 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="919499cb-be44-461e-901f-1190ac6ba303" name="Default Changelist" comment="" />
+    <list default="true" id="919499cb-be44-461e-901f-1190ac6ba303" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ArticleController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/article/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -121,6 +147,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1iySpfCIhLiLHOJe3lAmcnWddcu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -130,12 +157,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.stylelint" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -157,17 +188,61 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602878525416</updated>
-      <workItem from="1602878526608" duration="4792000" />
+      <workItem from="1602878526608" duration="5028000" />
+      <workItem from="1602902684665" duration="326000" />
+      <workItem from="1602903131320" duration="13723000" />
+      <workItem from="1602940106481" duration="2098000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="1375" y="42" width="830" height="680" key="#CLI_Interpreters" timestamp="1602907707648">
+      <screen x="1280" y="0" width="1024" height="768" />
+    </state>
+    <state x="1375" y="42" width="830" height="680" key="#CLI_Interpreters/0.28.1280.744/1280.0.1024.768@1280.0.1024.768" timestamp="1602907707648" />
     <state x="1565" y="262" width="450" height="239" key="#Composer" timestamp="1602878658371">
       <screen x="1280" y="0" width="1024" height="768" />
     </state>
     <state x="1565" y="262" width="450" height="239" key="#Composer/0.28.1280.744/1280.0.1024.768@1280.0.1024.768" timestamp="1602878658371" />
+    <state x="1694" y="295" width="191" height="174" key="#Custom_Plugin_Repositories" timestamp="1602908030802">
+      <screen x="1280" y="0" width="1024" height="768" />
+    </state>
+    <state x="1694" y="295" width="191" height="174" key="#Custom_Plugin_Repositories/0.28.1280.744/1280.0.1024.768@1280.0.1024.768" timestamp="1602908030802" />
+    <state x="1475" y="121" width="630" height="522" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602902993642">
+      <screen x="1280" y="0" width="1024" height="768" />
+    </state>
+    <state x="1475" y="121" width="630" height="522" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.28.1280.744/1280.0.1024.768@1280.0.1024.768" timestamp="1602902993642" />
+    <state x="1524" y="299" width="532" height="165" key="ComposerInitDialogKey" timestamp="1602907632710">
+      <screen x="1280" y="0" width="1024" height="768" />
+    </state>
+    <state x="1524" y="299" width="532" height="165" key="ComposerInitDialogKey/0.28.1280.744/1280.0.1024.768@1280.0.1024.768" timestamp="1602907632710" />
+    <state x="1483" y="87" width="613" height="589" key="NewPhpClassDialog" timestamp="1602903484529">
+      <screen x="1280" y="0" width="1024" height="768" />
+    </state>
+    <state x="1483" y="87" width="613" height="589" key="NewPhpClassDialog/0.28.1280.744/1280.0.1024.768@1280.0.1024.768" timestamp="1602903484529" />
+    <state x="1587" y="305" width="405" height="153" key="NewPhpFileDialog" timestamp="1602941058507">
+      <screen x="1280" y="0" width="1024" height="768" />
+    </state>
+    <state x="1587" y="305" width="405" height="153" key="NewPhpFileDialog/0.28.1280.744/1280.0.1024.768@1280.0.1024.768" timestamp="1602906143016" />
+    <state x="1587" y="305" key="NewPhpFileDialog/0.28.1280.772/1280.0.1024.768@1280.0.1024.768" timestamp="1602941058507" />
+    <state x="1281" y="19" key="SettingsEditor" timestamp="1602911109742">
+      <screen x="1280" y="0" width="1024" height="768" />
+    </state>
+    <state x="1281" y="19" key="SettingsEditor/0.28.1280.744/1280.0.1024.768@1280.0.1024.768" timestamp="1602911109742" />
   </component>
 </project>
