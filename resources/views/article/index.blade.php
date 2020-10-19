@@ -10,18 +10,13 @@
 @section('content')
     <p>Article content</p>
 
-    @if (count($data) === 1)
-        Mon tableau possède un élément
-    @elseif( count($data) > 1)
-        Mon tableau est > 1
-    @else
-        Mon tableau est vide
-    @endif
-
-    <ul>
-    @foreach($data as $d)
-        <li>{{ $d }}</li>
-    @endforeach
-    </ul>
+   <form method="post" class="form" action="{{ route('articles') }}">
+       @csrf
+       <div class="form-group">
+           <label for="first_name">Firstname :</label>
+           <input type="text" class="form-control" name="first_name"/>
+       </div>
+       <button type="submit" class="btn btn-primary">Valider</button>
+   </form>
 
 @endsection

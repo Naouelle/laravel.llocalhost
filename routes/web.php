@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('articles', 'ArticleController@index');
+Route::match(['get', 'post'], 'articles', 'ArticleController@index')->name('articles');
 
 Route::get('hello', function () {
     return 'Hello';
