@@ -19,4 +19,6 @@
        <button type="submit" class="btn btn-primary">Valider</button>
    </form>
 
+@elipsis('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.')
+
 @endsection
